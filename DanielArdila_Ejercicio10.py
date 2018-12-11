@@ -9,8 +9,7 @@ import numpy as np
 import pandas as pd
 
 
-data = pd.read_csv("gdp.csv", delimiter = ",")
-data=pd.read_csv('gdp.csv')
+data=pd.read_csv('years-lived-with-disability-vs-health-expenditure-per-capita.csv')
 data=data.dropna()
 
 index=data[data['Year']==2011]
